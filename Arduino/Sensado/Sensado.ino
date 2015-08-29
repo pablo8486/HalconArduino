@@ -24,7 +24,7 @@ void loop() {
   if (micros() > Tiempo2 + 1000000 && imprimir == true) // Muestra por el puerto serie los resultados, transcurrido un segundo
   {
     Tiempo2 = micros()-1000000; //SE ASIGNA A LA VARIABLE CONTADORVISUALIZACIÓN EL TIEMPO EN MICROSENGUNDOS QUE LLEVA EL PROGRAMA EN EJECUCIÓN
-    // AQUÍ SE IMPRIME EN EL PUERTO SERIE LOS RESULTADOS
+    // AQUÍ SE IMPRIME EN EL PUERTO SERIE LOS RESULTADOS pablo se la come
     lcd.clear();
     lcd.print("FQ:");
     lcd.print(contadorciclo/((Tiempo2 - Tiempo1)/1000000));
